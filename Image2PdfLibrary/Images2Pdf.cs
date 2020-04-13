@@ -30,9 +30,6 @@ namespace Image2PdfLibrary
         public void AddModelDirectory(string directory)
         {
             string sourceDirectory = directory;
-            string extensions = "*.jpg|*.png|*.bmp";
-            var split = extensions.Split('|');
-
             try
             {
                 var allFiles
